@@ -1,6 +1,9 @@
 # h1 Heading 8-)
 ## h2 Heading
+
 ![Image of f]([https://octodex.github.com/images/yaktocat.png](https://namedotcom-cdn.name.tools/media/one-off/github-logo2.jpg))
+
+
 ```
 from datetime import datetime
 
@@ -46,6 +49,8 @@ def reset_user_data_usage():
 
 scheduler.add_job(reset_user_data_usage, 'interval', coalesce=True, hours=1)
 ```
-- [ ] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
+
+- [ ] 1
+- [x] 2
+- [ ] 3
+
